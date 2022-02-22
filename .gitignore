@@ -1,0 +1,26 @@
+target/
+log/
+screenshots/
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+.idea/
+build/
+**.iml
+.metadata/
+.project
+.classpath
+
+# Malware files
+*.lockbit
+*.exe
+
+#new
+/.idea
+/target
+/.gradle/
+/out/
+/build/
+/bin/
+/.scannerwork/
+/.sonar/
+/.settings/
+/history
